@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
 </head>
@@ -14,18 +15,18 @@
     <main>
         <span id="searchBar">
             <h2>Search for a city:</h2>
-            <input type="searchBar" placeholder="search" />
-            <button id="">Search</button>
+            <input id="searchCity" type="searchBar" placeholder="search" />
+            <button id="button">Search</button>
         </span>
         <span>
-            <h2 id="todaysForecast">Today's Forcast</h2>
-            <div>
-
+            <h2 id="todaysForecast">This Week's Forcast</h2>
+            <div id="5-dayForecast">
+                <!-- insert weather forecast -->
             </div>
         </span>
         <span id="weatherDisplay">
         </span>
     </main>
-    <script href="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
