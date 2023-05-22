@@ -17,13 +17,31 @@ span {
     vertical-align: top;
 }
 
+.searcher {
+    margin: 10px;
+}
+
+.searchBtn {
+    background-color: blue;
+    border-radius: 25px;
+    display: block;
+    width: 40%;
+    padding: 4px;
+    margin-top: 6px;
+}
+
+#searchCity {
+    border-radius: 25px;
+    padding: 4px;
+}
+
 #searchBar {
     text-align: start;
     padding: 20px;
 }
 
 #todaysForecast {
-    text-align: center;
+    text-align: start;
     border: 3px solid black;
-    padding: 50px;
+    /* padding: 50px; */
 }
