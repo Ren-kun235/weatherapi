@@ -5,7 +5,8 @@
 }
 
 header {
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, lightblue, blue);
     color: white;
     padding: 20px;
     text-align: center;
@@ -28,6 +29,10 @@ span {
     width: 40%;
     padding: 4px;
     margin-top: 6px;
+}
+
+.searchBtn:hover {
+    background-color: lightblue;
 }
 
 #searchCity {

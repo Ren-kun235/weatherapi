@@ -26,3 +26,4 @@ searchEl.addEventListener("click", getApi);
       .catch((err) => console.error(err));
   };
 
+  
