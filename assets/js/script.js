@@ -12,18 +12,22 @@ searchEl.addEventListener("click", getApi);
     fetch(weatherUrl)
       .then((response) => response.json())
       .then((res) => {
-        console.log(res)
 
-        var forecastEl = document.getElementById("ul");
+        var cityName = res.city.name;
 
-        for (i = 0; i < 5; i++) {
-          var cityEl = $("h3").addClass("weather");
-          var weatherEl = $("div").attr();
-          var tempEl = $("div").text(res.list[i*8].main.temp);
-        }
+        var cityNameEl = document.querySelector("#todaysForecast");
+        cityNameEl.textContent = cityName;
+
+        var searchHistory = res.city.history;
+
+        var cityHistoryEl = document.querySelector(".history");
+        cityHistoryEl.textContent = searchHistory;
+        console.log(searchHistory);
+
+        // var displayWeatherEl = 
+        // displayWeatherEl.
 
       })
       .catch((err) => console.error(err));
   };
 
-  

@@ -19,7 +19,7 @@ span {
 }
 
 .searcher {
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .searchBtn {
@@ -42,11 +42,12 @@ span {
 
 #searchBar {
     text-align: start;
-    padding: 20px;
+    padding: 20px 6px;
 }
 
 #todaysForecast {
     text-align: start;
-    border: 3px solid black;
-    /* padding: 50px; */
+    border: 4px solid black;
+    padding: 75px 125px;
+    margin: 10px;
 }
