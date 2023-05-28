@@ -18,6 +18,11 @@ span {
     vertical-align: top;
 }
 
+p {
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .searcher {
     margin: 10px 0px;
 }
@@ -26,7 +31,7 @@ span {
     background-color: blue;
     border-radius: 25px;
     display: block;
-    width: 40%;
+    width: 36%;
     padding: 4px;
     margin-top: 6px;
 }
